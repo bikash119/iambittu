@@ -5,7 +5,7 @@ draft: false
 subtitle: this is subtitle test_cms
 blurb:
   heading: Start something new
-  text: Start something new
+  text: 'Start something new, Pls commit yourself.'
 ---
 ### Hi hugoS
 ## Hi hugoS
