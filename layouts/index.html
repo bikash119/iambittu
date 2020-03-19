@@ -3,9 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   </head>
   <body>
-    {{ .Content }}
+    <div class="jumbotron">
+      {{ if .Params.subtitle }}
+      <p class="b f4 di lh-title mb3 white mw6 bg-primary">
+          {{ .Params.subtitle}}
+      </p>
+      {{ end }}
+        {{ .Content }}
+    </div>
   </body>
 </html>
